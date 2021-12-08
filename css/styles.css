@@ -1,23 +1,23 @@
 
+body{
+    font-family:'Montserrat';
+}
+
+
 #title{
-    background-color:#ee586e;
+    background-color:#a13541;
     color:#fff;
 }
 .container-fluid{
     padding: 3% 9.4% !important;
     
 }
-.fontbody{
-    font-family:'Montserrat';
-  
-   
-   
-}
+
 
 h1{
-    font-family: 'Montserrat', Black;
+    font-family: 'Montserrat', rgb(24, 23, 23);
     font-size: 3rem;
-   line-height:1;
+   line-height:2;
 }
 
 /* navbar */
@@ -42,3 +42,13 @@ h1{
     font-size: 3.25rem;
 }
 
+/* download Buttouns */
+.download-button{
+    margin: 6% 3% 5% 0%;
+}
+
+/* title image */
+.title-image{
+    width:50%;
+    transform:rotate(30deg);
+}
