@@ -52,3 +52,24 @@ h1{
     width:50%;
     transform:rotate(30deg);
 }
+#features{
+    padding:5% 7%;
+}
+
+.Feature-blox{
+    text-align: center;
+    padding: 5%;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    color: rgb(141, 135, 135);
+}
+.Icon{
+    color:#a13541;
+    margin-bottom: 1%;
+}
+.Icon:hover{
+    color:#c4636e
+}
