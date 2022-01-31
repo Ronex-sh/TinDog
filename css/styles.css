@@ -19,6 +19,12 @@ h1{
     font-size: 3rem;
    line-height:2;
 }
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    line-height:2;
+}
+
 
 /* navbar */
 .navbar-brand{
@@ -35,7 +41,7 @@ h1{
   padding:0 6px;
 }
 .nav-link{
-    font-size: 1.3rem;
+    font-size: 1.3rem ;
     
 }
 #navbar-cusmize{
@@ -52,6 +58,9 @@ h1{
     width:50%;
     transform:rotate(30deg);
 }
+
+
+/* future Section */
 #features{
     padding:5% 7%;
 }
@@ -60,9 +69,7 @@ h1{
     text-align: center;
     padding: 5%;
 }
-h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 p{
     color: rgb(141, 135, 135);
 }
@@ -73,3 +80,37 @@ p{
 .Icon:hover{
     color:#c4636e
 }
+
+/* Testimonials */
+
+#testimonials{
+    /* width:80%;
+    margin: auto; */
+    padding:6% 6%;
+   text-align: center;
+   background-color: #c4636e;
+   color:#fff
+}
+
+#testimonials h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    line-height:2;
+}
+
+.testimonial-img{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+
+ /* Press  */
+  #press{
+    background-color: #c4636e;
+    padding-bottom:3%;
+    text-align: center;
+  }
+  .press-logo{
+      width:15%;
+    margin: 20px 20px 50px;
+  }
