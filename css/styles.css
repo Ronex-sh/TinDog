@@ -86,19 +86,22 @@ p{
 #testimonials{
     /* width:80%;
     margin: auto; */
-    padding:6% 6%;
+    
    text-align: center;
    background-color: #c4636e;
    color:#fff
 }
+.carousel-item{
+    padding:8% 8%;
+}
 
 #testimonials h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height:2;
 }
 
-.testimonial-img{
+.testimonial-image{
     width:10%;
     border-radius:100%;
     margin:20px;
