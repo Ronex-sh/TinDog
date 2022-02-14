@@ -9,7 +9,7 @@ body{
     color:#fff;
 }
 .container-fluid{
-    padding: 3% 9.4% !important;
+    padding: 3% 9.4%  15%!important;
     
 }
 
@@ -55,14 +55,20 @@ h2{
 
 /* title image */
 .title-image{
+    /* bottom:-40%; */
     width:50%;
     transform:rotate(30deg);
+    position: absolute;
+    left: 20%;
 }
 
 
 /* future Section */
 #features{
     padding:5% 7%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .Feature-blox{
