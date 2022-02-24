@@ -4,6 +4,22 @@ body{
 }
 
 
+h1,h2,h3,h4,h5,h6{
+    font-family:'Montserrat';
+}
+
+h1{
+
+    font-size: 3rem;
+   line-height:2;
+}
+h2{
+   
+    font-size: 3rem;
+    line-height:2;
+}
+
+
 #title{
     background-color:#a13541;
     color:#fff;
@@ -13,17 +29,6 @@ body{
     
 }
 
-
-h1{
-    font-family: 'Montserrat', rgb(24, 23, 23);
-    font-size: 3rem;
-   line-height:2;
-}
-h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 3rem;
-    line-height:2;
-}
 
 
 /* navbar */
@@ -55,7 +60,7 @@ h2{
 
 /* title image */
 .title-image{
-    /* bottom:-40%; */
+    /* bottom:-70%; */
     width:50%;
     transform:rotate(30deg);
     position: absolute;
@@ -69,6 +74,10 @@ h2{
     background-color: #fff;
     position: relative;
     z-index: 1;
+}
+
+.feature-tatle{
+ font-size:1.5em
 }
 
 .Feature-blox{
@@ -112,6 +121,10 @@ p{
     border-radius:100%;
     margin:20px;
 }
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
  /* Press  */
   #press{
@@ -133,3 +146,50 @@ p{
   .priceing-coulmn{
       padding:3% 2%;
   }
+
+.price-text{
+    font-size: 3rem;
+    line-height:1.5;
+   
+    
+}
+
+/*  */
+  @media(max-width:1000px){
+      #title{
+          text-align: center
+      }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+    
+  }
+
+  /* CTA to Action */
+
+  #cta {
+
+   background-color: #c4636e;
+   color:#fff;
+   padding:7% 15%;
+   text-align: center;
+
+}
+.cta-heading{
+    font-family: 'Montserrat', rgb(24, 23, 23);
+    font-size: 3rem;
+   line-height:2;
+}
+
+
+
+/* Footer */
+#footer{
+    padding:7% 15%;
+    text-align:center;
+}
+.social-icon{
+    padding:2px
+}
